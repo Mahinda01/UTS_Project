@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 1600px;
+    margin-bottom: 20px;
+  }
+  
+  .mobile-list {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .add-mobile-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .new-mobile-input,
+  .upload-button {
+    margin-bottom: 10px;
+  }
+  
+  .uploaded-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 10px;
+  }
+  
+  .add-mobile-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .add-mobile-button:hover {
+    background-color: #45a049;
+  }
+  
